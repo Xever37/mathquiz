@@ -1,0 +1,93 @@
+export interface Question {
+  id: string;
+  category: string;
+  question: string;
+  answer: string;
+  unit?: string;
+}
+
+export const quizData: Question[] = [
+  // 百化分 (Fractions to Percentages)
+  { id: 'f1', category: '百化分', question: '1', answer: '100', unit: '%' },
+  { id: 'f2', category: '百化分', question: '1/2', answer: '50', unit: '%' },
+  { id: 'f3', category: '百化分', question: '1/3', answer: '33.3', unit: '%' },
+  { id: 'f4', category: '百化分', question: '1/4', answer: '25', unit: '%' },
+  { id: 'f5', category: '百化分', question: '1/5', answer: '20', unit: '%' },
+  { id: 'f6', category: '百化分', question: '1/6', answer: '16.7', unit: '%' },
+  { id: 'f7', category: '百化分', question: '1/7', answer: '14.3', unit: '%' },
+  { id: 'f8', category: '百化分', question: '1/8', answer: '12.5', unit: '%' },
+  { id: 'f9', category: '百化分', question: '1/9', answer: '11.1', unit: '%' },
+  { id: 'f10', category: '百化分', question: '1/10', answer: '10', unit: '%' },
+  { id: 'f11', category: '百化分', question: '1/1.5', answer: '66.6', unit: '%' },
+  { id: 'f12', category: '百化分', question: '1/2.5', answer: '40', unit: '%' },
+  { id: 'f13', category: '百化分', question: '1/3.5', answer: '28.6', unit: '%' },
+  { id: 'f14', category: '百化分', question: '1/4.5', answer: '22.2', unit: '%' },
+  { id: 'f15', category: '百化分', question: '1/5.5', answer: '18', unit: '%' },
+  { id: 'f16', category: '百化分', question: '1/6.5', answer: '15.4', unit: '%' },
+  { id: 'f17', category: '百化分', question: '1/7.5', answer: '13.3', unit: '%' },
+  { id: 'f18', category: '百化分', question: '1/8.5', answer: '11.7', unit: '%' },
+  { id: 'f19', category: '百化分', question: '1/9.5', answer: '10.5', unit: '%' },
+  { id: 'f20', category: '百化分', question: '1/10.5', answer: '9.5', unit: '%' },
+  { id: 'f21', category: '百化分', question: '1/11', answer: '9.1', unit: '%' },
+  { id: 'f22', category: '百化分', question: '1/12', answer: '8.3', unit: '%' },
+  { id: 'f23', category: '百化分', question: '1/13', answer: '7.7', unit: '%' },
+  { id: 'f24', category: '百化分', question: '1/14', answer: '7.1', unit: '%' },
+  { id: 'f25', category: '百化分', question: '1/15', answer: '6.7', unit: '%' },
+  { id: 'f26', category: '百化分', question: '1/16', answer: '6.3', unit: '%' },
+  { id: 'f27', category: '百化分', question: '1/17', answer: '5.9', unit: '%' },
+  { id: 'f28', category: '百化分', question: '1/18', answer: '5.6', unit: '%' },
+  { id: 'f29', category: '百化分', question: '1/19', answer: '5.3', unit: '%' },
+  { id: 'f30', category: '百化分', question: '1/20', answer: '5', unit: '%' },
+  { id: 'f31', category: '百化分', question: '1/11.5', answer: '8.7', unit: '%' },
+  { id: 'f32', category: '百化分', question: '1/12.5', answer: '8', unit: '%' },
+  { id: 'f33', category: '百化分', question: '1/13.5', answer: '7.4', unit: '%' },
+  { id: 'f34', category: '百化分', question: '1/14.5', answer: '6.9', unit: '%' },
+  { id: 'f35', category: '百化分', question: '1/15.5', answer: '6.5', unit: '%' },
+  { id: 'f36', category: '百化分', question: '1/16.5', answer: '6.1', unit: '%' },
+  { id: 'f37', category: '百化分', question: '1/17.5', answer: '5.7', unit: '%' },
+  { id: 'f38', category: '百化分', question: '1/18.5', answer: '5.4', unit: '%' },
+  { id: 'f39', category: '百化分', question: '1/19.5', answer: '5.1', unit: '%' },
+  { id: 'f40', category: '百化分', question: '1/20.5', answer: '4.9', unit: '%' },
+  { id: 'f41', category: '百化分', question: '1/21', answer: '4.8', unit: '%' },
+  { id: 'f42', category: '百化分', question: '1/22', answer: '4.5', unit: '%' },
+  { id: 'f43', category: '百化分', question: '1/23', answer: '4.3', unit: '%' },
+  { id: 'f44', category: '百化分', question: '1/24', answer: '4.2', unit: '%' },
+  { id: 'f45', category: '百化分', question: '1/25', answer: '4', unit: '%' },
+  { id: 'f46', category: '百化分', question: '1/26', answer: '3.8', unit: '%' },
+  { id: 'f47', category: '百化分', question: '1/27', answer: '3.7', unit: '%' },
+  { id: 'f48', category: '百化分', question: '1/28', answer: '3.6', unit: '%' },
+  { id: 'f49', category: '百化分', question: '1/29', answer: '3.4', unit: '%' },
+  { id: 'f50', category: '百化分', question: '1/30', answer: '3.3', unit: '%' },
+
+  // 平方 (Squares)
+  { id: 's11', category: '平方', question: '11²', answer: '121' },
+  { id: 's12', category: '平方', question: '12²', answer: '144' },
+  { id: 's13', category: '平方', question: '13²', answer: '169' },
+  { id: 's14', category: '平方', question: '14²', answer: '196' },
+  { id: 's15', category: '平方', question: '15²', answer: '225' },
+  { id: 's16', category: '平方', question: '16²', answer: '256' },
+  { id: 's17', category: '平方', question: '17²', answer: '289' },
+  { id: 's18', category: '平方', question: '18²', answer: '324' },
+  { id: 's19', category: '平方', question: '19²', answer: '361' },
+  { id: 's21', category: '平方', question: '21²', answer: '441' },
+  { id: 's22', category: '平方', question: '22²', answer: '484' },
+  { id: 's23', category: '平方', question: '23²', answer: '529' },
+  { id: 's24', category: '平方', question: '24²', answer: '576' },
+  { id: 's25', category: '平方', question: '25²', answer: '625' },
+  { id: 's26', category: '平方', question: '26²', answer: '676' },
+  { id: 's27', category: '平方', question: '27²', answer: '729' },
+  { id: 's28', category: '平方', question: '28²', answer: '784' },
+  { id: 's29', category: '平方', question: '29²', answer: '841' },
+
+  // 立方 (Cubes)
+  { id: 'c1', category: '立方', question: '1.1³', answer: '1.3' },
+  { id: 'c2', category: '立方', question: '1.2³', answer: '1.7' },
+  { id: 'c3', category: '立方', question: '1.3³', answer: '2.2' },
+  { id: 'c4', category: '立方', question: '1.4³', answer: '2.7' },
+
+  // 四次方 (Fourth Powers)
+  { id: 'q1', category: '四次方', question: '1.1⁴', answer: '1.46' },
+  { id: 'q2', category: '四次方', question: '1.2⁴', answer: '2.07' },
+  { id: 'q3', category: '四次方', question: '1.3⁴', answer: '2.9' },
+  { id: 'q4', category: '四次方', question: '1.4⁴', answer: '3.8' },
+];
